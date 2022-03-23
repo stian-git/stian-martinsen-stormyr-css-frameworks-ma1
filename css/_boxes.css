@@ -1,0 +1,36 @@
+.squares {
+    display: flex;
+    max-width: 1180px;
+}
+.squares .col {
+    flex: 0 0 0%;
+}
+.squares .row {
+    place-content: center;
+    margin: 0;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 1px 3px 10px 0.1rem rgba(0, 0, 0, 0.1);
+}
+.card-body {
+    padding: 8rem !important;
+    background-color: var(--bs-primary);
+    border-radius: 15px;
+    border: 3px solid var(--bs-primary);
+}
+
+.card-body--white {
+    background-color: var(--bs-white);
+}
+.card-body--red {
+    background-color: var(--bs-pink);
+}
+
+.card-body--border-white {
+    border-color: var(--bs-white);
+}
+
+.card-body--border-red {
+    border-color: var(--bs-pink);
+}

@@ -1,6 +1,23 @@
 body {
-    background-color: var(--color_theme_background);
-    height: 100vh;
+    background-color: var(--bs-body-bg);
+    color: var(--bs-dark);
+}
+
+main {
+    margin-top: 110px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em !important;
+    margin-bottom: 1em;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
 }

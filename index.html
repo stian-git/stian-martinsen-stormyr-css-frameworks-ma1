@@ -4,13 +4,16 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
         <title>CSS Frameworks-Module-1-MA</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">MA1</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,34 +21,70 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             <a class="nav-link" href="#">About</a>
-                            <!-- <a class="nav-link" href="#">Pricing</a> -->
-                            <!-- <a class="nav-link disabled">Disabled</a> -->
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
-        <main>
-            <h1>Page heading</h1>
-            <div class="squares">
-                <p class="squares__box--beige"></p>
-                <p class="squares__box--beige"></p>
-                <p class="squares__box--white squares__box--redborder"></p>
-                <p class="squares__box--beige"></p>
-                <p class="squares__box--beige"></p>
-                <p class="squares__box--red squares__box--whiteborder"></p>
-                <p class="squares__box--beige"></p>
-                <p class="squares__box--white squares__box--redborder"></p>
-            </div>
-        </main>
-        <footer>
-            <div class="footer">
-                <p class="footer__element"><a href="mailto:hello@email.com" class="footer__link">hello@email.com</a></p>
-                <p class="footer__element footer__info">Copyright 2022</p>
-            </div>
-        </footer>
+        <div class="wrapper">
+            <main>
+                <h1>Page heading</h1>
+                <div class="squares">
+                    <div class="row g-4">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body card-body--white card-body--border-red"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body card-body--red card-body--border-white"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body"></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body card-body--white card-body--border-red"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer_wrapper">
+                    <div class="footer">
+                        <p class="footer__element"><a href="mailto:hello@email.com" class="footer__link">hello@email.com</a></p>
+                        <p class="footer__element footer__info">Copyright 2022</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
