@@ -1,0 +1,34 @@
+.squares {
+    display: flex;
+    max-width: 1180px;
+    .col {
+        flex: 0 0 0%;
+    }
+    .row {
+        place-content: center;
+        margin: 0;
+    }
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 1px 3px 10px 0.1rem rgba(0, 0, 0, 0.1);
+    &-body {
+        padding: 8rem !important;
+        background-color: $primary;
+        border-radius: 15px;
+        border: 3px solid $primary;
+        &--white {
+            background-color: $white;
+        }
+        &--red {
+            background-color: $pink;
+        }
+        &--border-white {
+            border-color: $white;
+        }
+        &--border-red {
+            border-color: $pink;
+        }
+    }
+}

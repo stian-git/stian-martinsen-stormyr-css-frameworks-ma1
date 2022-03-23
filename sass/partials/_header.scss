@@ -1,0 +1,41 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    padding: 0.5rem 2rem !important;
+    background-color: $primary !important;
+    &-brand {
+        font-size: 1.7rem;
+    }
+    .container-fluid {
+        max-width: 1180px;
+    }
+    &-brand:hover {
+        color: $pink !important;
+    }
+    &-toggler {
+        border: none;
+        color: rgba(0, 0, 0, 0) !important;
+        &[aria-expanded="true"] {
+            display: none;
+        }
+    }
+}
+
+.nav-link {
+    color: $gray !important;
+    text-transform: uppercase;
+    &.active {
+        color: $pink !important;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+#navbarNavAltMarkup {
+    justify-content: right;
+}
