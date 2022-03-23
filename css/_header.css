@@ -1,0 +1,25 @@
+/* header {
+    background-color: var(--color_theme);
+} */
+
+.bg-light {
+    background-color: var(--color_theme) !important;
+}
+
+.navbar {
+    padding: 0.5rem 2rem !important;
+}
+
+.navbar-brand {
+    color: var(--color_footertext) !important;
+}
+
+.nav-link {
+    color: var(--color_nav_link) !important;
+}
+.nav-link.active {
+    color: var(--color_nav_link_active) !important;
+}
+#navbarNavAltMarkup {
+    justify-content: right;
+}

@@ -1,0 +1,12 @@
+:root {
+    --color_theme: #f4f3ee;
+    --color_theme_background: #e5e5e5;
+    --color_box_beige: #f4f3ee;
+    --color_box_white: #fff;
+    --color_box_red: #c32c72;
+    --color_footertext: #8d8d8d;
+    --color_headertext: #463f3a;
+    --color_nav_brand: #262626;
+    --color_nav_link: #8d8d8d;
+    --color_nav_link_active: #c32c72;
+}

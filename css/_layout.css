@@ -1,0 +1,6 @@
+body {
+    background-color: var(--color_theme_background);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
